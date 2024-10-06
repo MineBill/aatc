@@ -195,10 +195,10 @@ namespace config {
 			static const char* set = "set";
 			static const char* unordered_set = "unordered_set";
 			static const char* map = "map";
-			static const char* unordered_map = "unordered_map";
+			static const char* unordered_map = "Dictionary";
 		};//namespace container
 
-		static const char* iterator_suffix = "_iterator";
+		static const char* iterator_suffix = "Iterator";
 		static const char* funcpointer = "aatc_funcpointer";
 		static const char* funcdef_cmp_prefix = "aatc_funcdef_cmp_";
 
@@ -210,46 +210,46 @@ namespace config {
 			namespace container {
 				static const char* set_directcomp = "SetDirectcomp";
 
-				static const char* clear = "clear";
-				static const char* size = "size";
-				static const char* count = "count";
-				static const char* empty = "empty";
-				static const char* swap = "swap";
+				static const char* clear = "Clear";
+				static const char* size = "Size";
+				static const char* count = "Count";
+				static const char* empty = "Empty";
+				static const char* swap = "Swap";
 
-				static const char* front = "front";
-				static const char* back = "back";
-				static const char* push_front = "push_front";
-				static const char* push_back = "push_back";
-				static const char* pop_front = "pop_front";
-				static const char* pop_back = "pop_back";
-				static const char* reserve = "reserve";
-				static const char* insert = "insert";
-				static const char* erase = "erase";
-				static const char* sort = "sort";
+				static const char* front = "Front";
+				static const char* back = "Back";
+				static const char* push_front = "Append";
+				static const char* push_back = "AppendBack";
+				static const char* pop_front = "Pop";
+				static const char* pop_back = "PopBack";
+				static const char* reserve = "Reserve";
+				static const char* insert = "Insert";
+				static const char* erase = "Erase";
+				static const char* sort = "Sort";
 				static const char* sort_scriptfunc = sort;
 				static const char* sort_aatcfuncptr = sort;
-				static const char* contains = "contains";
-				static const char* find = "find";
+				static const char* contains = "Contains";
+				static const char* find = "Find";
 				static const char* erase_position = erase;
 				static const char* erase_position_range = erase_position;
-				static const char* erase_value = "erase_value";
+				static const char* erase_value = "EraseValue";
 				static const char* insert_position_before = insert;
 
 				static const char* operator_index = "opIndex";
 
-				static const char* begin = "begin";
-				static const char* end = "end";
-				static const char* find_iterator = "find_iterator";
+				static const char* begin = "Begin";
+				static const char* end = "End";
+				static const char* find_iterator = "FindIterator";
 				static const char* erase_iterator = erase;
 				static const char* erase_iterator_range = erase_iterator;
 				static const char* insert_iterator = insert;
 			};//namespace container
 
 			namespace iterator {
-				static const char* access_property = "value";
-				static const char* access_property_key = "key";
-				static const char* access_property_value = "value";
-				static const char* access_function = "current";
+				static const char* access_property = "Value";
+				static const char* access_property_key = "Key";
+				static const char* access_property_value = "Value";
+				static const char* access_function = "Current";
 				static const char* access_function_key = "current_key";
 				static const char* access_function_value = "current_value";
 				static const char* is_end = "IsEnd";
